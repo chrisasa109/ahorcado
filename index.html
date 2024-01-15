@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="submit" value="JUGAR" onclick="jugar()" id="btnJugar">
+    <div id="bloqueJuego" style="display: none;">
+        <canvas id="dibujo" width="160" height="160"></canvas>
+        <h2 id="palabra"></h2>
+        <p id="inputValor">
+            <label for="intento">Introduce letra o palabra:</label>
+            <input type="text" name="intento" id="intento">
+        </p>
+        <input type="submit" value="Intentar" id="btnIntentar" onclick="intentar()">
+        <p id="pIntentos">Intentos: <span id="numIntentos"></span></p>
+        <h2 id="resultado"></h2>
+        <input type="submit" value="Volver a jugar" id="btnVolverJugar" onclick="volverJugar()">
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
