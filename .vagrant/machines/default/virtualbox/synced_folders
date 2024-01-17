@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html/":{"guestpath":"/var/www/html","hostpath":"C:/Users/christian.santossant/Documents/Canvas/www","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/christian.santossant/Documents/Canvas","disabled":false,"__vagrantfile":true}}}
